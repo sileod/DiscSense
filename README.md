@@ -11,7 +11,7 @@ Discourse markers can be considered as noisy labels for various semantic tasks, 
 
 DiscSense provides a set of associations between discourse markers and the classes of various tasks.
 
-Unlike previous work on discourse marker semantics, DiscSense was built automatically: we finetuned a BERT model for discourse marker prediction between sentences (using the Discovery dataset) and used the marker prediction between sentences of existing datasets. This allows us to measure associations between the classes of existing datasets and predicted markers. 
+Unlike previous work on discourse marker semantics, DiscSense was built automatically: we finetuned a BERT model for discourse marker prediction between sentences (using the [Discovery](https://github.com/synapse-developpement/Discovery) dataset) and used the marker prediction between sentences of existing datasets. This allows us to measure associations between the classes of existing datasets and predicted markers. 
 Previous work mainly use PDTB discourse relations to characterize discourse markere; here, we use a much broader range of linguistic phenomena, by leveraging the datasets of [DiscEval](<https://github.com/synapse-developpement/DiscEval>), [SentEval](https://github.com/facebookresearch/SentEval) and [GLUE](http://gluebenchmark.com/) evaluation benchmarks.
 
 
