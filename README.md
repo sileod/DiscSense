@@ -238,8 +238,30 @@ The association table are available in the discsense folder in tsv format.
 
 We used [mlxtend association rules module]( http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/>) to find associations.
 
+# Citation
+
+```
+@inproceedings{sileo-etal-2020-discsense,
+    title = "{D}isc{S}ense: Automated Semantic Analysis of Discourse Markers",
+    author = "Sileo, Damien  and
+      Van de Cruys, Tim  and
+      Pradel, Camille  and
+      Muller, Philippe",
+    booktitle = "Proceedings of the 12th Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.lrec-1.125",
+    pages = "991--999",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+}
+```
+
+
 # Contact
 
 For further information, you can contact:
 
-damien dot sileo at synapse-fr dot com
+damien dot sileo at gmail dot com
